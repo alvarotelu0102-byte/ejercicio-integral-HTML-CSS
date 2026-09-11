@@ -1,0 +1,70 @@
+body{
+    background: rgb(220, 111, 111);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* ESTILO TIPO TARJETA - Obligatorio */
+.tarjeta-app {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border-left: 8px solid #1DB954; /* margen resaltado izquierdo */
+}
+
+.tarjeta-app h1 {
+    color: #1a365d;
+    margin-bottom: 20px;
+}
+
+.app-imagen {
+    width: 200px;
+    margin: 20px 0;
+}
+
+/* SEPARACIÓN VISUAL - Obligatorio */
+.info p, .info h3, .info ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.descripcion {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.5;
+}
+
+.tecnologias {
+    background: #eee6ff;
+    padding: 15px 15px 40px;
+    border-radius: 8px;
+}
+
+.enlace-oficial {
+    display: inline-block;
+    background: #1DB954;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.enlace-oficial:hover {
+    background: #14833b;
+}

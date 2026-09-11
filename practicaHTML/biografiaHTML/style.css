@@ -1,0 +1,46 @@
+body{
+    background: rgb(220, 111, 111);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+
+  
+}
+
+#container {
+    width: 40%;
+    margin: 10px auto;
+    line-height: normal;
+    text-align: center;
+    padding: 20px;
+     border-left: 5px solid #70788d;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+#content{
+    width: 100%;
+    min-height: 500px;
+    background: rgb(119, 96, 140);
+}
+
+.article{
+    color: rgb(244, 243, 241);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(250, 249, 248);
+}
+.article h1 {
+    color: #1e3a8a; /* azul profesional */
+}
+
+.article h2 {
+    color: #7cbd22; /* blanco */
+}
+
+.article h3 {
+    color: #708214; /* color crema para resaltar */
+}
